@@ -88,6 +88,7 @@ def validation():
                         insertion_data()
                         messagebox.showinfo("INFO","Înregistrarea a avut loc cu succes!")
                         shifting_form()
+                        import main
                 else:
                     messagebox.showerror("EROARE","Parola trebuie să conțină: minim 8 caractere, litere majuscule și minuscule, numere și simboluri!")
         else:
